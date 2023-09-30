@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PHnxU7/LC0zUMr+BwG9zd6KugT/gE0cOrNvRVI6s9b0=",
+  "Hash": "zl1UlAMZ/hBEU4WNii6UJeffkIL+LSNZy2aZ7+FUImM=",
   "Source": "SBS Dev Test",
   "BasePath": "_content/SBS Dev Test",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "SBS Dev Test\\wwwroot",
       "Source": "SBS Dev Test",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "Pattern": "**"
     }
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "C:\\Users\\Jake\\.nuget\\packages\\mudblazor\\6.10.0\\staticwebassets\\MudBlazor.min.js"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\obj\\Debug\\net7.0\\scopedcss\\bundle\\SBS Dev Test.styles.css",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\obj\\Debug\\net7.0\\scopedcss\\bundle\\SBS Dev Test.styles.css",
       "SourceId": "SBS Dev Test",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "SBS Dev Test.styles.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\obj\\Debug\\net7.0\\scopedcss\\bundle\\SBS Dev Test.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\obj\\Debug\\net7.0\\scopedcss\\bundle\\SBS Dev Test.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SBS Dev Test.bundle.scp.css",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SBS Dev Test.bundle.scp.css",
       "SourceId": "SBS Dev Test",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "SBS Dev Test.bundle.scp.css",
       "AssetKind": "All",
@@ -82,47 +82,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SBS Dev Test.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SBS Dev Test.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
-      "BasePath": "_content/SBS Dev Test",
-      "RelativePath": "css/bootstrap/bootstrap.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
-      "SourceId": "SBS Dev Test",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
-      "BasePath": "_content/SBS Dev Test",
-      "RelativePath": "css/bootstrap/bootstrap.min.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
-      "SourceId": "SBS Dev Test",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -136,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -153,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -170,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -187,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -204,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -221,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -238,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -255,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -272,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\css\\site.css",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -289,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\favicon.png",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -306,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\images\\logo\\chicago_bulls.jpg",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\images\\logo\\chicago_bulls.jpg",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "images/logo/chicago_bulls.jpg",
       "AssetKind": "All",
@@ -323,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\chicago_bulls.jpg"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\images\\logo\\compressed\\chicago_bulls.jpg",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\images\\logo\\compressed\\chicago_bulls.jpg",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "images/logo/compressed/chicago_bulls.jpg",
       "AssetKind": "All",
@@ -340,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\compressed\\chicago_bulls.jpg"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\images\\logo\\compressed\\denver_nuggets.jpg",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\images\\logo\\compressed\\denver_nuggets.jpg",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "images/logo/compressed/denver_nuggets.jpg",
       "AssetKind": "All",
@@ -357,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\compressed\\denver_nuggets.jpg"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\images\\logo\\compressed\\houston_rockets.jpg",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\images\\logo\\compressed\\houston_rockets.jpg",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "images/logo/compressed/houston_rockets.jpg",
       "AssetKind": "All",
@@ -374,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\compressed\\houston_rockets.jpg"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\images\\logo\\compressed\\indiana_pacers.jpg",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\images\\logo\\compressed\\indiana_pacers.jpg",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "images/logo/compressed/indiana_pacers.jpg",
       "AssetKind": "All",
@@ -391,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\compressed\\indiana_pacers.jpg"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\images\\logo\\compressed\\miami_heat.jpg",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\images\\logo\\compressed\\miami_heat.jpg",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "images/logo/compressed/miami_heat.jpg",
       "AssetKind": "All",
@@ -408,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\compressed\\miami_heat.jpg"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\images\\logo\\compressed\\oklahoma_city_thunder.jpg",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\images\\logo\\compressed\\oklahoma_city_thunder.jpg",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "images/logo/compressed/oklahoma_city_thunder.jpg",
       "AssetKind": "All",
@@ -425,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\compressed\\oklahoma_city_thunder.jpg"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\images\\logo\\compressed\\san_antonio_spurs.jpg",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\images\\logo\\compressed\\san_antonio_spurs.jpg",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "images/logo/compressed/san_antonio_spurs.jpg",
       "AssetKind": "All",
@@ -442,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\compressed\\san_antonio_spurs.jpg"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\images\\logo\\compressed\\toronto_raptors.jpg",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\images\\logo\\compressed\\toronto_raptors.jpg",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "images/logo/compressed/toronto_raptors.jpg",
       "AssetKind": "All",
@@ -459,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\compressed\\toronto_raptors.jpg"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\images\\logo\\denver_nuggets.jpg",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\images\\logo\\denver_nuggets.jpg",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "images/logo/denver_nuggets.jpg",
       "AssetKind": "All",
@@ -476,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\denver_nuggets.jpg"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\images\\logo\\houston_rockets.jpg",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\images\\logo\\houston_rockets.jpg",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "images/logo/houston_rockets.jpg",
       "AssetKind": "All",
@@ -493,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\houston_rockets.jpg"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\images\\logo\\indiana_pacers.jpg",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\images\\logo\\indiana_pacers.jpg",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "images/logo/indiana_pacers.jpg",
       "AssetKind": "All",
@@ -510,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\indiana_pacers.jpg"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\images\\logo\\miami_heat.jpg",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\images\\logo\\miami_heat.jpg",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "images/logo/miami_heat.jpg",
       "AssetKind": "All",
@@ -527,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\miami_heat.jpg"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\images\\logo\\oklahoma_city_thunder.jpg",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\images\\logo\\oklahoma_city_thunder.jpg",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "images/logo/oklahoma_city_thunder.jpg",
       "AssetKind": "All",
@@ -544,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\oklahoma_city_thunder.jpg"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\images\\logo\\san_antonio_spurs.jpg",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\images\\logo\\san_antonio_spurs.jpg",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "images/logo/san_antonio_spurs.jpg",
       "AssetKind": "All",
@@ -561,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\san_antonio_spurs.jpg"
     },
     {
-      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\images\\logo\\toronto_raptors.jpg",
+      "Identity": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\images\\logo\\toronto_raptors.jpg",
       "SourceId": "SBS Dev Test",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\wwwroot\\",
       "BasePath": "_content/SBS Dev Test",
       "RelativePath": "images/logo/toronto_raptors.jpg",
       "AssetKind": "All",

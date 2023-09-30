@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o4R3CCq8KWvPWWeC6AM521ymSJRGRI2WP/vRi/eJf65JdcQ1Nu2dv53rllItRWwQnmqI7PkuCxlxsQh3+LXvLA==",
+  "dgSpecHash": "36TjEfCR/ErmCPLgWnbunmMPhzxWoYhvYqI2ttZ32Rx1m62U9mwGK7drTNUeLGdQGTftjw/987aCHO83C2YJ0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\SBS Dev Test.csproj",
+  "projectFilePath": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\SBS Dev Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jake\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Jake\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

@@ -9,37 +9,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SBS_Dev_Test
 build_property.RootNamespace = SBS_Dev_Test
-build_property.ProjectDir = C:\Users\Jake\Documents\dev-projects\SBS Dev Test\
+build_property.ProjectDir = C:\Users\Jake\Documents\dev-projects\NBA_Stats_JBuckingham\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Jake\Documents\dev-projects\SBS Dev Test
+build_property.MSBuildProjectDirectory = C:\Users\Jake\Documents\dev-projects\NBA_Stats_JBuckingham
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Jake/Documents/dev-projects/SBS Dev Test/App.razor]
+[C:/Users/Jake/Documents/dev-projects/NBA_Stats_JBuckingham/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jake/Documents/dev-projects/SBS Dev Test/Pages/Index.razor]
+[C:/Users/Jake/Documents/dev-projects/NBA_Stats_JBuckingham/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jake/Documents/dev-projects/SBS Dev Test/_Imports.razor]
+[C:/Users/Jake/Documents/dev-projects/NBA_Stats_JBuckingham/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jake/Documents/dev-projects/SBS Dev Test/Shared/MainLayout.razor]
+[C:/Users/Jake/Documents/dev-projects/NBA_Stats_JBuckingham/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-3yk19nowcs
 
-[C:/Users/Jake/Documents/dev-projects/SBS Dev Test/Shared/NavMenu.razor]
+[C:/Users/Jake/Documents/dev-projects/NBA_Stats_JBuckingham/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-e3hjs93iji
 
-[C:/Users/Jake/Documents/dev-projects/SBS Dev Test/Pages/Error.cshtml]
+[C:/Users/Jake/Documents/dev-projects/NBA_Stats_JBuckingham/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jake/Documents/dev-projects/SBS Dev Test/Pages/_Host.cshtml]
+[C:/Users/Jake/Documents/dev-projects/NBA_Stats_JBuckingham/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

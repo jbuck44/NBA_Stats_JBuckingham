@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\SBS Dev Test.csproj": {}
+    "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\SBS Dev Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\SBS Dev Test.csproj": {
+    "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\SBS Dev Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\SBS Dev Test.csproj",
+        "projectUniqueName": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\SBS Dev Test.csproj",
         "projectName": "SBS Dev Test",
-        "projectPath": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\SBS Dev Test.csproj",
+        "projectPath": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\SBS Dev Test.csproj",
         "packagesPath": "C:\\Users\\Jake\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jake\\Documents\\dev-projects\\SBS Dev Test\\obj\\",
+        "outputPath": "C:\\Users\\Jake\\Documents\\dev-projects\\NBA_Stats_JBuckingham\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jake\\AppData\\Roaming\\NuGet\\NuGet.Config",
