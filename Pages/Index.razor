@@ -1,0 +1,207 @@
+﻿@page "/"
+@using SBS_Dev_Test.Models
+@using SBS_Dev_Test.Services
+@inject CalculateTeamStatsService calculateTeamStatsService
+@inject IJSRuntime JsRuntime
+
+<PageTitle>Home | SBS Dev Test</PageTitle>
+
+<MudTable Items="@teamStats" Filter="new Func<TeamStats,bool>(FilterFunc1)" @bind-SelectedItem="selectedItem1" Hover="true" Breakpoint="Breakpoint.Sm" Loading="@_loading" LoadingProgressColor="Color.Info">
+    <ToolBarContent>
+        <MudText Typo="Typo.h6">NBA Stats</MudText>
+        <MudSpacer />
+        <MudTextField @bind-Value="searchString1" Placeholder="Search by Name, Stadium or MVP" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+    </ToolBarContent>
+    <HeaderContent>
+        <MudTh><MudTableSortLabel SortBy="new Func<TeamStats, object>(x=>x.Name)">Name</MudTableSortLabel></MudTh>
+        <MudTh><MudTableSortLabel SortBy="new Func<TeamStats, object>(x=>x.Stadium)">Stadium</MudTableSortLabel></MudTh>
+        <MudTh>Logo</MudTh>
+        <MudTh><MudTableSortLabel SortBy="new Func<TeamStats, object>(x=>x.MVP)">MVP</MudTableSortLabel></MudTh>
+        <MudTh Style="width:86px;">Played</MudTh>
+        <MudTh @onclick='() => OnRowClick("won")' Style="width:86px;" class="chartIcon">
+            <span Class="mud-table-sort-label mud-button-root">
+                Won &nbsp;
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="#2979ff" id="wonChartIcon" viewBox="0 0 448 512">
+                    <path d="M160 80c0-26.5 21.5-48 48-48h32c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H208c-26.5 0-48-21.5-48-48V80zM0 272c0-26.5 21.5-48 48-48H80c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V272zM368 96h32c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H368c-26.5 0-48-21.5-48-48V144c0-26.5 21.5-48 48-48z" />
+                </svg>
+            </span>
+        </MudTh>
+        <MudTh @onclick='() => OnRowClick("lost")' Style="width:86px;" class="chartIcon">
+            <span Class="mud-table-sort-label mud-button-root">
+                Lost&nbsp;
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" fill="#d4d4d4" id="lostChartIcon" viewBox="0 0 448 512">
+                    <path d="M160 80c0-26.5 21.5-48 48-48h32c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H208c-26.5 0-48-21.5-48-48V80zM0 272c0-26.5 21.5-48 48-48H80c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V272zM368 96h32c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H368c-26.5 0-48-21.5-48-48V144c0-26.5 21.5-48 48-48z" />
+                </svg>
+            </span>
+        </MudTh>
+        <MudTh>Played Home</MudTh>
+        <MudTh>Played Away</MudTh>
+        <MudTh><MudTableSortLabel SortBy="new Func<TeamStats, object>(x=>x.BiggestWin)">Biggest Win</MudTableSortLabel></MudTh>
+        <MudTh><MudTableSortLabel SortBy="new Func<TeamStats, object>(x=>x.BiggestLoss)">Biggest Loss</MudTableSortLabel></MudTh>
+        <MudTh><MudTableSortLabel SortBy="new Func<TeamStats, object>(x=>x.LastGameStadium)">Last Game Stadium</MudTableSortLabel></MudTh>
+        <MudTh><MudTableSortLabel SortBy="new Func<TeamStats, object>(x=>x.LastGameDate)">Last Game Date</MudTableSortLabel></MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Name">@context.Name</MudTd>
+        <MudTd DataLabel="Stadium">@context.Stadium</MudTd>
+        <MudTd DataLabel="Logo"><a href="@context.URL" target="_blank"><img src="@context.Logo" width="70" /></a></MudTd>
+        <MudTd DataLabel="MVP">@context.MVP</MudTd>
+        <MudTd DataLabel="Total Games">@context.TotalGames</MudTd>
+        <MudTd DataLabel="Won">@context.Won</MudTd>
+        <MudTd DataLabel="Lost">@context.Lost</MudTd>
+        <MudTd DataLabel="Played Home">@context.PlayedHome</MudTd>
+        <MudTd DataLabel="Played Away">@context.PlayedAway</MudTd>
+        <MudTd DataLabel="Biggest Win">@context.BiggestWin</MudTd>
+        <MudTd DataLabel="Biggest Loss">@context.BiggestLoss</MudTd>
+        <MudTd DataLabel="Last Game Stadium">@context.LastGameStadium</MudTd>
+        <MudTd DataLabel="Last Game Date">@context.LastGameDate?.ToString("yyyy-MM-dd")</MudTd>
+    </RowTemplate>
+</MudTable>
+
+<MudChart ChartType="ChartType.Bar" ChartOptions="@_options" ChartSeries="@Series" XAxisLabels="@XAxisLabels" LegendPosition="Position.Left" Width="90%" Height="500px">
+
+</MudChart>
+
+
+
+
+@code {
+    public List<ChartSeries> Series = new List<ChartSeries>();
+    public string[] XAxisLabels = { };
+    private readonly ChartOptions _options = new();
+
+    private bool _hidePosition;
+    private bool _loading;
+    private string searchString1 = "";
+    private TeamStats selectedItem1 = null;
+    private IEnumerable<TeamStats> teamStats = new List<TeamStats>();
+
+    private bool FilterFunc1(TeamStats teamStats) => FilterFunc(teamStats, searchString1);
+
+    private bool FilterFunc(TeamStats teamStats, string searchString)
+    {
+        if (string.IsNullOrWhiteSpace(searchString))
+            return true;
+        if (teamStats.Name.Contains(searchString, StringComparison.OrdinalIgnoreCase))
+            return true;
+        if (teamStats.Stadium.Contains(searchString, StringComparison.OrdinalIgnoreCase))
+            return true;
+        if (teamStats.MVP.Contains(searchString, StringComparison.OrdinalIgnoreCase))
+            return true;
+        return false;
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        teamStats = await calculateTeamStatsService.Get();
+
+        double[] wins = new double[teamStats.Count()];
+        double[] lost = new double[teamStats.Count()];
+        string[] names = new string[teamStats.Count()];
+
+        wins = teamStats.Select(x => Convert.ToDouble(x.Won)).ToArray();
+        lost = teamStats.Select(x => Convert.ToDouble(x.Lost)).ToArray();
+        names = teamStats.Select(x => x.Name).ToArray();
+
+        XAxisLabels = names;
+
+        Series.Add(
+            new ChartSeries() { Name = "No. Won Games", Data = wins }
+        );
+
+        _options.YAxisTicks = 2;
+        _options.XAxisLines = true;
+        _options.XAxisLines = true;
+    }
+
+    private async void OnRowClick(string data)
+    {
+        switch (data)
+        {
+            case "won":
+                Series.Clear();
+                Series.Add(
+                    new ChartSeries() { Name = "No. Won Games", Data = teamStats.Select(x => Convert.ToDouble(x.Won)).ToArray() }
+                );
+                await JsRuntime.InvokeVoidAsync("swapChartIconColors", "won");
+                break;
+            case "lost":
+                Series.Clear();
+                Series.Add(
+                    new ChartSeries() { Name = "No. Lost Games", Data = teamStats.Select(x => Convert.ToDouble(x.Lost)).ToArray() }
+                );
+                await JsRuntime.InvokeVoidAsync("swapChartIconColors", "lost");
+                break;
+        }
+
+    }
+
+
+
+
+}
+
+<style>
+    .mud-table-cell {
+        padding: 0.25rem 0.5rem !important;
+    }
+
+    .mud-charts-xaxis > text {
+        font-weight: 600;
+        font-size: 1rem;
+        writing-mode: vertical-lr;
+        text-anchor: start;
+        z-index: 40;
+    }
+
+    .mud-chart-legend {
+        margin: unset !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mud-ltr {
+        overflow-y: auto;
+    }
+
+    svg:not(:root) {
+        overflow: visible;
+        overflow-clip-margin: unset;
+    }
+
+    .mud-chart {
+        justify-content: center;
+    }
+
+    .mud-ltr {
+        width: 1000px;
+        margin-bottom: 260px !important;
+    }
+
+    .chartIcon:hover {
+        cursor: pointer;
+    }
+
+        .chartIcon:hover svg {
+            fill: #29D7FF !important;
+        }
+
+</style>
+
+<script type="text/javascript">
+    window.swapChartIconColors = (res) => {
+        const wonChartIcon = document.getElementById("wonChartIcon");
+        const lostChartIcon = document.getElementById("lostChartIcon");
+        console.log(lostChartIcon)
+        switch (res) {
+            case "won":
+                lostChartIcon.style.fill = "#d4d4d4";
+                wonChartIcon.style.fill = "#2979ff";
+                break;
+            case "lost":
+                lostChartIcon.style.fill = "#2979ff";
+                wonChartIcon.style.fill = "#d4d4d4";
+                break;
+        }
+    }
+</script>
